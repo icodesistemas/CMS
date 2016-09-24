@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conexion-srvdb>
+	<driver>mysql</driver>
+	<srv>127.0.0.1</srv>
+	<userdb>root</userdb>
+	<passdb>130202angel</passdb>
+	<database>db_cms</database>
+</conexion-srvdb>

@@ -1,0 +1,12 @@
+RewriteEngine On
+#/dashboard/module/edit/39.php 
+#mod_rewrite
+#/dashboard/login
+
+
+RewriteRule ^([a-zA-Z0-9\-\_]+)/([a-zA-Z0-9\-\_]+)/([a-zA-Z0-9\-\_]+)/([a-zA-Z0-9\-\_]+)(\.html)?$ index.php?%{QUERY_STRING}&module=$1&submodule=$2&vista=$3&proc=$4
+RewriteRule ^([a-zA-Z0-9\-\_]+)/([a-zA-Z0-9\-\_]+)/([a-zA-Z0-9\-\_]+)(\.html)?$ index.php?%{QUERY_STRING}&module=$1&submodule=$2&vista=$3
+RewriteRule ^([a-zA-Z0-9\-\_]+)/([a-zA-Z0-9\-\_]+)(\.html)?$ index.php?%{QUERY_STRING}&module=$1&submodule=$2
+RewriteRule ^([a-zA-Z0-9\-\_]+)(\.html)?$ index.php?%{QUERY_STRING}&module=$1
+
+#RewriteRule ^.*$ index.html

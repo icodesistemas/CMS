@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+	<smpt>SI</smpt>
+	<puerto>25</puerto>
+	<host>mail.safesigma.com</host>
+	<user>webmaster@safesigma.com</user>
+	<pass>130202webmaster</pass>
+	<send>
+		<mail>webmaster@safesigma.com</mail>
+		<name>SAFE SIGMA</name>
+	</send>
+</server>	
